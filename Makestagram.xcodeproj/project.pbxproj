@@ -73,14 +73,79 @@
 			isa = PBXGroup;
 			children = (
 				C946C04B20F54F8C006BE33F /* AppDelegate.swift */,
-				C946C04D20F54F8C006BE33F /* ViewController.swift */,
-				C946C04F20F54F8C006BE33F /* Main.storyboard */,
+				C946C06220F571D0006BE33F /* Services */,
+				C946C06320F571D6006BE33F /* Models */,
+				C946C05F20F57042006BE33F /* Controllers */,
+				C946C06420F571E3006BE33F /* Views */,
+				C946C06620F572DE006BE33F /* Helpers */,
+				C946C06020F57065006BE33F /* Storyboards */,
+				C946C06120F57195006BE33F /* Supporting files */,
 				C946C05220F54F8D006BE33F /* Assets.xcassets */,
+				C946C06720F5738B006BE33F /* Extensions */,
+			);
+			path = Makestagram;
+			sourceTree = "<group>";
+		};
+		C946C05F20F57042006BE33F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C946C06020F57065006BE33F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C946C04F20F54F8C006BE33F /* Main.storyboard */,
 				C946C05420F54F8D006BE33F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C946C06120F57195006BE33F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				C946C05720F54F8D006BE33F /* Info.plist */,
 				C946C05D20F5665F006BE33F /* GoogleService-Info.plist */,
 			);
-			path = Makestagram;
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C946C06220F571D0006BE33F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C946C06320F571D6006BE33F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C946C06420F571E3006BE33F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C946C04D20F54F8C006BE33F /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C946C06620F572DE006BE33F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C946C06720F5738B006BE33F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D9A05F40DBD0A35C8F69E22F /* Frameworks */ = {
@@ -376,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
