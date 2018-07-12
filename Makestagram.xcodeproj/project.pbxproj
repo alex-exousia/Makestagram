@@ -13,8 +13,9 @@
 		C901381920F705E1004310AD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901381820F705E1004310AD /* UserService.swift */; };
 		C901381B20F7C6C4004310AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901381A20F7C6C4004310AD /* Constants.swift */; };
 		C901381D20F7C855004310AD /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901381C20F7C855004310AD /* Storyboard+Utility.swift */; };
+		C901381F20F7F4BE004310AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901381E20F7F4BE004310AD /* HomeViewController.swift */; };
+		C901382120F7F4CA004310AD /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901382020F7F4CA004310AD /* FindFriendsViewController.swift */; };
 		C946C04C20F54F8C006BE33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946C04B20F54F8C006BE33F /* AppDelegate.swift */; };
-		C946C04E20F54F8C006BE33F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946C04D20F54F8C006BE33F /* ViewController.swift */; };
 		C946C05120F54F8C006BE33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946C04F20F54F8C006BE33F /* Main.storyboard */; };
 		C946C05320F54F8D006BE33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C946C05220F54F8D006BE33F /* Assets.xcassets */; };
 		C946C05620F54F8D006BE33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946C05420F54F8D006BE33F /* LaunchScreen.storyboard */; };
@@ -32,9 +33,10 @@
 		C901381820F705E1004310AD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		C901381A20F7C6C4004310AD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C901381C20F7C855004310AD /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		C901381E20F7F4BE004310AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C901382020F7F4CA004310AD /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		C946C04820F54F8C006BE33F /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C946C04B20F54F8C006BE33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C946C04D20F54F8C006BE33F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C946C05020F54F8C006BE33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C946C05220F54F8D006BE33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C946C05520F54F8D006BE33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,9 +105,10 @@
 		C946C05F20F57042006BE33F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C946C04D20F54F8C006BE33F /* ViewController.swift */,
 				C9893C8320F57943001629D9 /* LoginViewController.swift */,
 				C901381620F6F7B3004310AD /* CreateUsernameViewController.swift */,
+				C901381E20F7F4BE004310AD /* HomeViewController.swift */,
+				C901382020F7F4CA004310AD /* FindFriendsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -319,8 +322,9 @@
 				C901381320F6C341004310AD /* User.swift in Sources */,
 				C9893C8420F57943001629D9 /* LoginViewController.swift in Sources */,
 				C901381920F705E1004310AD /* UserService.swift in Sources */,
+				C901381F20F7F4BE004310AD /* HomeViewController.swift in Sources */,
 				C901381D20F7C855004310AD /* Storyboard+Utility.swift in Sources */,
-				C946C04E20F54F8C006BE33F /* ViewController.swift in Sources */,
+				C901382120F7F4CA004310AD /* FindFriendsViewController.swift in Sources */,
 				C901381B20F7C6C4004310AD /* Constants.swift in Sources */,
 				C901381720F6F7B3004310AD /* CreateUsernameViewController.swift in Sources */,
 				C946C04C20F54F8C006BE33F /* AppDelegate.swift in Sources */,
