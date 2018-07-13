@@ -12,5 +12,8 @@ struct Constants{
     struct segue{
         static let toCreateUSername = "toCreateUsername"
     }
+    struct UserDefaults {
+        static let currentUser = "currentUser"
+    }
     
 }

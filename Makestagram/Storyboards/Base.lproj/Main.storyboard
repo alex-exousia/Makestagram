@@ -10,17 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item 2-->
         <scene sceneID="N26-Gq-LP8">
             <objects>
-                <viewController id="xiH-OJ-Pj6" sceneMemberID="viewController">
+                <viewController title="Item 2" id="xiH-OJ-Pj6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RnA-Ux-jn7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9VC-27-ZRq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="6GR-PB-Lwb"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" id="6GR-PB-Lwb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zHk-RJ-VLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,26 +42,26 @@
             </objects>
             <point key="canvasLocation" x="589" y="-270"/>
         </scene>
-        <!--Find Friends View Controller-->
+        <!--Item 3-->
         <scene sceneID="adb-An-4aJ">
             <objects>
-                <viewController id="wet-9Q-Tuc" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Item 3" id="wet-9Q-Tuc" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SrH-VG-xKf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CRc-ia-ywY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_find_friends_black" id="ep9-Ts-zUa"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_find_friends_black" id="ep9-Ts-zUa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eca-bW-j0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1234" y="63"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="vig-qP-3g7">
             <objects>
-                <tabBarController id="aEs-qU-Qtt" sceneMemberID="viewController">
+                <tabBarController id="aEs-qU-Qtt" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nfa-Nk-eEP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
