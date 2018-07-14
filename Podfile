@@ -11,6 +11,6 @@ pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
 
-  # Pods for Makestagram
+ pod 'Kingfisher', '~> 4.0'
 
 end
