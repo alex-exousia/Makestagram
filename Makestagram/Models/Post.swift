@@ -42,6 +42,4 @@ class Post {
         self.imageHeight = imageHeight
         self.creationDate = Date(timeIntervalSince1970: createdAgo)
     }
-    
-    
 }

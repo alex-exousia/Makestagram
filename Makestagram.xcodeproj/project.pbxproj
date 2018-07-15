@@ -24,11 +24,13 @@
 		C901383720F9AECE004310AD /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901383620F9AECE004310AD /* StorageReference+Post.swift */; };
 		C901383B20F9B3AA004310AD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C901383A20F9B3AA004310AD /* Home.storyboard */; };
 		C901383D20F9BAD0004310AD /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901383C20F9BAD0004310AD /* PostImageCell.swift */; };
+		C901383F20FAC034004310AD /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901383E20FAC034004310AD /* PostHeaderCell.swift */; };
 		C946C04C20F54F8C006BE33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946C04B20F54F8C006BE33F /* AppDelegate.swift */; };
 		C946C05120F54F8C006BE33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946C04F20F54F8C006BE33F /* Main.storyboard */; };
 		C946C05320F54F8D006BE33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C946C05220F54F8D006BE33F /* Assets.xcassets */; };
 		C946C05620F54F8D006BE33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C946C05420F54F8D006BE33F /* LaunchScreen.storyboard */; };
 		C946C05E20F5665F006BE33F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C946C05D20F5665F006BE33F /* GoogleService-Info.plist */; };
+		C960AF7920FBC84500E6E1F3 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960AF7820FBC84500E6E1F3 /* PostActionCell.swift */; };
 		C9893C8220F578A2001629D9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9893C8020F578A2001629D9 /* Login.storyboard */; };
 		C9893C8420F57943001629D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9893C8320F57943001629D9 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,7 @@
 		C901383620F9AECE004310AD /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		C901383A20F9B3AA004310AD /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		C901383C20F9BAD0004310AD /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		C901383E20FAC034004310AD /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		C946C04820F54F8C006BE33F /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C946C04B20F54F8C006BE33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C946C05020F54F8C006BE33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		C946C05520F54F8D006BE33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C946C05720F54F8D006BE33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C946C05D20F5665F006BE33F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C960AF7820FBC84500E6E1F3 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		C9893C8120F578A2001629D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Storyboards/Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		C9893C8320F57943001629D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				C901383C20F9BAD0004310AD /* PostImageCell.swift */,
+				C901383E20FAC034004310AD /* PostHeaderCell.swift */,
+				C960AF7820FBC84500E6E1F3 /* PostActionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				C9893C8420F57943001629D9 /* LoginViewController.swift in Sources */,
 				C901382320F916FF004310AD /* MainTabBarController.swift in Sources */,
 				C901381920F705E1004310AD /* UserService.swift in Sources */,
+				C960AF7920FBC84500E6E1F3 /* PostActionCell.swift in Sources */,
 				C901383120F9AB7C004310AD /* UIImage+Size.swift in Sources */,
 				C901383D20F9BAD0004310AD /* PostImageCell.swift in Sources */,
 				C901381F20F7F4BE004310AD /* HomeViewController.swift in Sources */,
@@ -365,6 +372,7 @@
 				C901382120F7F4CA004310AD /* FindFriendsViewController.swift in Sources */,
 				C901381B20F7C6C4004310AD /* Constants.swift in Sources */,
 				C901381720F6F7B3004310AD /* CreateUsernameViewController.swift in Sources */,
+				C901383F20FAC034004310AD /* PostHeaderCell.swift in Sources */,
 				C946C04C20F54F8C006BE33F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
