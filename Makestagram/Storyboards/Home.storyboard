@@ -95,17 +95,18 @@
                                                         <constraint firstAttribute="width" secondItem="sp0-gD-G5a" secondAttribute="height" multiplier="1:1" id="uy6-3f-Cqa"/>
                                                     </constraints>
                                                     <state key="normal" image="btn_heart_black_outline"/>
+                                                    <state key="selected" image="btn_heart_red_solid"/>
                                                     <connections>
                                                         <action selector="likeButtonTapped:" destination="7dy-js-Xi8" eventType="touchUpInside" id="de9-yV-oD3"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqh-Ta-F6A">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqh-Ta-F6A" userLabel="likeCountLabel">
                                                     <rect key="frame" x="44" y="14" width="48" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31 MINUTES AGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-2U-Amb">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31 MINUTES AGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-2U-Amb" userLabel="timeAgoLabel">
                                                     <rect key="frame" x="267" y="0.0" width="93" height="45.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
@@ -136,14 +137,12 @@
                                         <connections>
                                             <outlet property="imagePostedTimeLabel" destination="RQ5-2U-Amb" id="JEf-F6-6ab"/>
                                             <outlet property="likeButton" destination="sp0-gD-G5a" id="zFI-5l-YVr"/>
+                                            <outlet property="likeCountLabel" destination="Rqh-Ta-F6A" id="xgj-Xg-E0S"/>
                                             <outlet property="numberOfLikesLabel" destination="Rqh-Ta-F6A" id="T7g-fW-qVY"/>
+                                            <outlet property="timeAgoLabel" destination="RQ5-2U-Amb" id="XTb-iS-Btd"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="HTm-zt-IV6" id="QGG-PE-wEo"/>
-                                    <outlet property="delegate" destination="HTm-zt-IV6" id="cIO-r6-YJW"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -186,6 +185,7 @@
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tabBarItem:aoT-CL-DWR:image" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
