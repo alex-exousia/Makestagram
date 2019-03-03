@@ -65,15 +65,16 @@
         <scene sceneID="8ZA-iS-mxA">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="Mgh-cT-tus" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rkf-7f-MGn"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="tab_home_black" id="rkf-7f-MGn"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2U-6f-HWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-778.39999999999998" y="411.544227886057"/>
+            <point key="canvasLocation" x="-856" y="124"/>
         </scene>
     </scenes>
     <resources>
         <image name="tab_find_friends_black" width="25" height="25"/>
+        <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
     </resources>
 </document>
